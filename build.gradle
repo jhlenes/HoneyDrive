@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+
+    // Sets up Maven central repository. Very popular repository for libraries, contains almost everything you need.
+    mavenCentral()
+}
+
+dependencies {
+
+    // Format: '<groupId>:<artifactId>:<version>'
+
+    // Required for compiling
+    compile "com.googlecode.json-simple:json-simple:1.1.1"
+    compile "com.squareup.okhttp3:okhttp:3.3.1"
+    compile "org.json:json:20160212"
+
+    // Required for testing
+    testCompile "junit:junit:4.12"
+}
