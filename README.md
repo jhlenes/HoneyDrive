@@ -1,4 +1,5 @@
 # HoneyDrive
+[![Build Status](https://travis-ci.org/jhlenes/HoneyDrive.svg?branch=master)](https://travis-ci.org/jhlenes/HoneyDrive)
 
 HoneyDrive encourages safe driving by collecting, analyzing and displaying data about the
 driver’s behavior on the road. Historical data about acceleration, braking, speed and distance
